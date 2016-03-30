@@ -1,0 +1,135 @@
+
+*, html, body {padding: 0px;
+	margin: 0px;}
+header {
+	/*
+background-image: url();
+background-color: #fff;
+background-repeat: no repeat;
+background-position: top left;
+background-size: 100% | ;
+	 */
+	background: url('../images/b.jpg') #fff no-repeat top center;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+body {
+	min-width: 600px;
+}
+ header .inner {
+padding: 100px 0px;
+ }
+.menu ul { 
+	list-style: none;
+ }
+ .menu ul li {
+ 	display: inline-block;
+ }
+ .menu ul li a {
+ 	color: #ffffff;
+ 	padding: 20px 10px; 
+	text-decoration: none; /* underline */
+	text-transform: uppercase; /*lowercase */
+	font-size: 16px;
+	display: inline-block;
+ }
+header h1 {
+	background: #81B536;
+	display: inline-block;
+	padding: 0px 5px;
+	font-size: 28px;
+	margin-bottom: 40px;
+
+}
+.menu {
+	background: rgba(0,0,0,0.5);
+}
+.inner p {
+	padding: 0px 30%; 
+	padding-bottom: 20px;
+	line-height: 1.4;
+}
+.sect h2 {
+	text-transform: uppercase; 
+	color: #565656;
+	font-weight: normal;
+}
+.sect p {
+	color: #848484;
+	padding: 20px 0px;
+}
+.s1, .s2 {
+	width:30%;
+	font-family: "Calibri";
+}
+.s1 {
+	float: left;
+	padding: 50px 150px;
+}
+.s1 h2 {
+	font-size: 28px;
+}
+
+.s1 p {
+	font-size: 21px;
+}
+.s2 {
+	margin-left:40%;
+	padding: 60px 220px;
+	}
+
+.s2 p {
+	font-size: 15px;
+}
+.s2 a {
+	border: 1px solid #81B536;
+	padding: 13px;
+	font-size: 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #81B536;
+}
+.menu ul:hover li a {
+ color: transparent;
+   text-shadow: 0 0 3px rgba(255,255,255,0.5);
+}
+
+.menu ul li a:hover {
+ color: #fff;
+ text-shadow: none;
+}
+
+footer {
+	clear:both;
+	background: #81B536;
+	text-align: center;
+	color: #fff;
+}
+footer h2 {
+	text-transform: uppercase;
+	padding: 20px 5px;
+	padding-top: 50px;
+	font-family: "Calibri";
+	font-size: 27px;
+}
+
+footer p {
+	padding: 10px 0px;
+	font-family: "Calibri";
+	margin-bottom:20px;
+}
+footer a {
+	border: 1px solid #ffffff;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.foot {
+	padding: 50px 25%; 
+	padding-bottom: 80px;
+}
